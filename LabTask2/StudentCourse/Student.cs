@@ -8,7 +8,7 @@ namespace StudentCourse
 {
     class Student
     {
-        private static int CourseLimit = 5;
+        public static int CourseLimit = 5;
         private Course[] courses;
 
         public Student()

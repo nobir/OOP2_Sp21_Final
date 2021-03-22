@@ -8,7 +8,7 @@ namespace StudentCourse
 {
     class Course
     {
-        private static int StudentLimit = 30;
+        public static int StudentLimit = 30;
         private Student[] students;
 
         public Course()
@@ -33,9 +33,12 @@ namespace StudentCourse
         {
             foreach (Student s in stdns)
             {
-                this.students[this.StudentCount++] = s;
-                if (s.GetCourse(this.Id) == null)
-                    s.AddCourse(this);
+                if(this.StudentCount < Course.StudentLimit && s.CourseCount < Student.CourseLimit)
+                {
+                    this.students[this.StudentCount++] = s;
+                    if (s.GetCourse(this.Id) == null)
+                        s.AddCourse(this);
+                }
             }
         }
 
