@@ -542,9 +542,9 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Location = new System.Drawing.Point(216, 1047);
+            this.button1.Location = new System.Drawing.Point(216, 1052);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 59);
+            this.button1.Size = new System.Drawing.Size(130, 47);
             this.button1.TabIndex = 39;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = false;
@@ -554,7 +554,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(758, 1055);
+            this.ClientSize = new System.Drawing.Size(682, 1033);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.comboBox5);
